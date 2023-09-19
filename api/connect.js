@@ -2,7 +2,7 @@
 import mysql from "mysql"
 
 export const db=mysql.createConnection({
-    host:"localhost",
+    host:"https://socialmediawebsite.onrender.com",
     user:"root",
     password:"password",
     database:"social"
